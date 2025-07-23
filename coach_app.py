@@ -16,6 +16,9 @@ from collections import defaultdict
 from fpdf import FPDF
 from PIL import Image
 
+import spacy.cli
+spacy.cli.download("nl_core_news_sm")
+
 # Laad Nederlands NLP-model
 nlp = spacy.load("nl_core_news_sm")
 
