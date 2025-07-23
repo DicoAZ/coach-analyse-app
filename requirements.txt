@@ -1,0 +1,8 @@
+streamlit
+whisper
+torch
+spacy
+matplotlib
+seaborn
+pandas
+fpdf
